@@ -11,4 +11,6 @@
 | 2/09/16 | Worked on exercises for week 2, still struggled with addeding the war file to the web application on OpenShift week 2 activity 5, worked on getting MySQL setup | 4.5 | |
 | 2/10/16 | Readings week3, worked on OpenShift activity 5 (couldn't finish it), Santa in an elevator (not finish) | 3.0 | |
 | 2/11/16 | Working on addeding project details, UI, database.vsd | 2.5 | |
-
+| 2/19/16 | Reading Week 5 | 1.5 | |
+| 2/23/16 | Reading Week 6, worked on getting windows 10 to add a file to jre/lib for week 06 exercise 2 | 2.0 | |
+| 2/24/16 | Working on week 06 exercise 2 (not finished yet) | 2 | |
