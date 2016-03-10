@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/memberDatabase.vsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Journal.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectPlan.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/about.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/contentType.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/head.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    </list>
+    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="" />
     <ignored path="ShepsLittleAcres.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -279,15 +265,15 @@
       <created>1457629833464</created>
       <option name="number" value="Default" />
       <updated>1457629833464</updated>
-      <workItem from="1457629834827" duration="589000" />
+      <workItem from="1457629834827" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589000" />
+    <option name="totallyTimeSpent" value="733000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1604" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1604" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
