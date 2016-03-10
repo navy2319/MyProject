@@ -13,4 +13,8 @@
 | 2/11/16 | Working on addeding project details, UI, database.vsd | 2.5 | |
 | 2/19/16 | Reading Week 5 | 1.5 | |
 | 2/23/16 | Reading Week 6, worked on getting windows 10 to add a file to jre/lib for week 06 exercise 2 | 2.0 | |
-| 2/24/16 | Working on week 06 exercise 2 (not finished yet) | 2 | |
+| 2/24/16 | Working on week 06 exercise 2 (not finished yet) | 3 | |
+| 3/03/16 | Meet up with tutor, worked on few exercises, Hibernate, log4j etc | 4 | |
+| 3/08/16 | Worked on building project structure, etc | 3.5 | |
+| 3/09/16 | Worked on deploy application to openshift, artifacts, database, added ProjectPlan.md to teamProject | 6.5 | |
+
