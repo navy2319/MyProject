@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - sheps_db@localhost" uuid="9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5">
+      <secret-storage>master_key</secret-storage>
+      <user-name>admin123</user-name>
+      <schema-pattern>sheps_db.*</schema-pattern>
+      <default-schemas>sheps_db.*</default-schemas>
+    </data-source>
+  </component>
+</project>
