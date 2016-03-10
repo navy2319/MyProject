@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_4_2_2_4_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/FarmEquip.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/Members.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/Users.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/farm/entities/FarmEquip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/farm/entities/Members.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/farm/entities/users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShepsLittleAcres.iml" afterPath="$PROJECT_DIR$/ShepsLittleAcres.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-    </list>
+    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="" />
     <ignored path="ShepsLittleAcres.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -858,12 +843,12 @@
       <created>1457629833464</created>
       <option name="number" value="Default" />
       <updated>1457629833464</updated>
-      <workItem from="1457629834827" duration="8407000" />
+      <workItem from="1457629834827" duration="9004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8407000" />
+    <option name="totallyTimeSpent" value="9004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
