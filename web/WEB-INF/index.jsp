@@ -2,14 +2,13 @@
   Created by IntelliJ IDEA.
   User: naiviScheffert
 --%>
-<jsp:include page="contentType.jsp" />
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
-<jsp:include page="head.jsp" />
-
-<body role="document">
-<jsp:include page="navbar.jsp" />//
-Here are all the members info...
-
-</body>
-<jsp:include page="footer.jsp" />
+    <head>
+        <title>Shep's Little Acres</title>
+    </head>
+    <body>
+    Welcome to Shep's Little Acres
+    </body>
 </html>
