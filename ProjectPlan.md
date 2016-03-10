@@ -11,19 +11,10 @@
 ### Week 2
 - [X] Document application flow - wireframes have clickable links in the online version.
 - [X] Complete screen design (on paper)
-- [ ] Create project structure in IntelliJ
-- [ ] Add project to repository
-- [ ] Deploy application to Openshift
-- [ ] Complete database design
-- [ ] Begin creating JSPs
 - [X] Weekly journal entry
-- [ ] Complete project plan. Based on the design should be able to lay out 
-more detail.
+- [ ] Complete project plan.
 
 ### Week 3
-- [ ] Complete remaining JSPs
-- [ ] Add in bootstrap
-- [ ] Create database and all tables/columns locally
 - [X] Weekly journal entry
 - [ ] Determine independent research topic
 - [ ] Create class diagram
@@ -34,44 +25,44 @@ more detail.
 - [ ] Add Hibernate config
 - [ ] Create DAO for user crud
 - [ ] Add unit tests for DAO
-- [ ] Add user login  
-- [ ] Add user registration
 - [ ] Weekly journal entry
-- [ ] Code review
+- [X] Code review
 - [ ] Add Maven for building
 - [ ] Add entities for remaining tables
 
 ### Week 5
 
 - [ ] Weekly journal entry
-- [ ] Create DAO for trails
-- [ ] Create DAO for trail report
-- [ ] Create display trail report functionality
-- [ ] Create display trail functionality
-- [ ] Add tests for new functionality
+- [ ] Create DAO
+
 
 ### Week 6
 - [ ] Weekly journal entry
-- [ ] Integration with google maps api
-- [ ] Create add trail report functionality
-- [ ] Create add trail functionality
+- [ ] Create project structure in IntelliJ
 - [ ] Set up Continuous Integration on openshift
 
 
 ### Week 7
 - [ ] Weekly journal entry
-- [ ] Add search functionality
-- [ ] Determine how to add paging of search results
-- [ ] Integration with weather service and/or snow depth data
+- [ ] Integration with weather service
+- [ ] Create database and all tables/columns locally
+- [ ] Add user registration
+- [ ] Add user login  
 
 ### Week 8
+- [ ] Add project to repository
+- [ ] Deploy application to Openshift
+- [ ] Complete database design
+- [ ] Begin creating JSPs
 - [ ] Weekly journal entry
 - [ ] Implement paging of search results
 - [ ] Code review
 
 ### Week 9
+- [ ] Complete remaining JSPs
+- [ ] Add in bootstrap
 - [ ] Weekly journal entry
-- [ ] Add password reset/reminder function
+- [ ] Integration with google maps api
 
 ### Week 10
 - [ ] Weekly journal entry
