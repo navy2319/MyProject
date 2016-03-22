@@ -11,61 +11,88 @@
       <table id="2" parent="1" name="users"/>
       <table id="3" parent="1" name="members"/>
       <table id="4" parent="1" name="farm_equipment"/>
-      <column id="5" parent="2" name="user_id">
+      <table id="5" parent="1" name="user"/>
+      <table id="6" parent="1" name="user_roles"/>
+      <column id="7" parent="2" name="user_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="6" parent="2" name="first_name">
+      <column id="8" parent="2" name="first_name">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="7" parent="2" name="last_name">
+      <column id="9" parent="2" name="last_name">
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="8" parent="2" name="email">
+      <column id="10" parent="2" name="email">
         <data-type>varchar(50)</data-type>
       </column>
-      <key id="9" parent="2" name="PRIMARY">
+      <key id="11" parent="2" name="PRIMARY">
         <columns>user_id</columns>
         <primary>1</primary>
       </key>
-      <column id="10" parent="3" name="member_id">
+      <column id="12" parent="3" name="member_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="11" parent="3" name="first_name">
+      <column id="13" parent="3" name="first_name">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="12" parent="3" name="last_name">
+      <column id="14" parent="3" name="last_name">
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="13" parent="3" name="email">
+      <column id="15" parent="3" name="email">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="14" parent="3" name="phone">
+      <column id="16" parent="3" name="phone">
         <data-type>varchar(10)</data-type>
       </column>
-      <key id="15" parent="3" name="PRIMARY">
+      <key id="17" parent="3" name="PRIMARY">
         <columns>member_id</columns>
         <primary>1</primary>
       </key>
-      <column id="16" parent="4" name="product_id">
+      <column id="18" parent="4" name="product_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="17" parent="4" name="product_name">
+      <column id="19" parent="4" name="product_name">
         <data-type>varchar(25)</data-type>
       </column>
-      <column id="18" parent="4" name="model">
+      <column id="20" parent="4" name="model">
         <data-type>varchar(20)</data-type>
       </column>
-      <column id="19" parent="4" name="year">
+      <column id="21" parent="4" name="year">
         <data-type>int(4)</data-type>
       </column>
-      <column id="20" parent="4" name="description">
+      <column id="22" parent="4" name="description">
         <data-type>varchar(80)</data-type>
       </column>
-      <key id="21" parent="4" name="PRIMARY">
+      <key id="23" parent="4" name="PRIMARY">
         <columns>product_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="24" parent="5" name="user_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="25" parent="5" name="user_pass">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <key id="26" parent="5" name="PRIMARY">
+        <columns>user_name</columns>
+        <primary>1</primary>
+      </key>
+      <column id="27" parent="6" name="user_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="28" parent="6" name="role_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+      </column>
+      <key id="29" parent="6" name="PRIMARY">
+        <columns>user_name
+role_name</columns>
         <primary>1</primary>
       </key>
     </database-model>
