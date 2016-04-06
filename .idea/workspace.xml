@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/GailGB.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/dad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/famKids.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/farmSlide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/farmSlide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/intro-pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/introFarm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slide-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slide-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/wed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/business-casual.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/stylesheet1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/WEB-INF/classes/farm/entities/FarmEquip.class" afterPath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/WEB-INF/classes/farm/entities/FarmEquip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/entities/FarmEquip.class" afterPath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/entities/FarmEquip.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/about.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/about.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/head.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ShepsLittleAcres_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/about.jsp" afterPath="$PROJECT_DIR$/web/about.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/head.jsp" afterPath="$PROJECT_DIR$/web/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-    </list>
+    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="" />
     <ignored path="ShepsLittleAcres.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -119,11 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/about.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39534885">
+            <state vertical-scroll-proportion="-6.5384617">
               <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Members.hbm.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/Members.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7116279">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -305,24 +290,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShepsLittleAcres" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShepsLittleAcres" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -342,6 +309,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShepsLittleAcres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShepsLittleAcres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignDocuments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wireframes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -890,12 +875,12 @@
       <option name="number" value="Default" />
       <updated>1457629833464</updated>
       <workItem from="1457629834827" duration="14243000" />
-      <workItem from="1458671275631" duration="20267000" />
+      <workItem from="1458671275631" duration="21573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34510000" />
+    <option name="totallyTimeSpent" value="35816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -908,7 +893,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1598" height="858" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33378747" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -924,7 +909,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1449935" sideWeight="0.49186993" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1449935" sideWeight="0.49186993" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5081301" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2230169" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1061,14 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Members.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6891892">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,8 +1211,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/about.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39534885">
+        <state vertical-scroll-proportion="-6.5384617">
           <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Members.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7116279">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>

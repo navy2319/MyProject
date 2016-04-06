@@ -16,5 +16,10 @@
 | 2/24/16 | Working on week 06 exercise 2 (not finished yet) | 3 | |
 | 3/03/16 | Meet up with tutor, worked on few exercises, Hibernate, log4j etc | 4 | |
 | 3/08/16 | Worked on building project structure, etc | 3.5 | |
-| 3/09/16 | Worked on deploy application to openshift, artifacts, database, added ProjectPlan.md to teamProject | 6.5 | |
+| 3/09/16 | Worked on deploy application to openshift, artifacts, database, added projectPlan.md to teamProject | 6.5 | |
+| 3/15/16 | Worked on deploy application to openshift, added hibernate xml files, added some bootstrap code, added two more tables to my database | 7.5 | |
+| 3/22/16 | Worked on web design for my individual project, added a bootstrap template, worked on weather.java class for my teamProject | 5.0 | |
+| 3/31/16 | Worked on teamProject, added gson and jersey files and deploying application to openshift| 3.0 | |
+| 4/05/16 | Worked on adding images to my web application (individual project), changing some code to my bootstrap template | 3.5 | |
+
 
