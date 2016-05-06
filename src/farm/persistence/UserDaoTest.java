@@ -1,15 +1,16 @@
-package farm.persistence
+package farm.persistence;
 
-import farm.entities.Users
+import farm.entities.Users;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by scheffs on 5/6/2016.
+ * Created by naivischeffert on 5/6/16.
  */
-class UserDaoTest{
+public class UserDaoTest {
+
     @Test
     public void testGetAllUsers() throws Exception {
 
@@ -25,15 +26,16 @@ class UserDaoTest{
 
     }
 
+
     @Test
     public void testAddUser() throws Exception {
         UserDao dao = new UserDao();
         int insertedUserId = 0;
         //create user to add
         Users user = new Users();
-        user.setFirstName("Unit");
-        user.setLastName("Test");
-        user.setEmail("UnitTester2@gmail.com");
+        user.setFirstName("Naivi");
+        user.setLastName("Scheffert");
+        user.setEmail("java@gmail.com");
 
         insertedUserId = dao.addUser(user);
 
@@ -43,3 +45,4 @@ class UserDaoTest{
 
     }
 }
+
