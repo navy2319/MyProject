@@ -19,37 +19,81 @@ public class UserDao {
 
 
     public List<Users> getAllUsers() {
-        List<Users> users = new ArrayList<Users>();
+
+        List<Users> users = new ArrayList<>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        session.createCriteria(Users.class).list();
+        Transaction transaction = null;
+
+        try {
+            transaction = session.beginTransaction();
+            users = session.createCriteria(Users.class).list();
+            transaction.commit();
+        } catch (HibernateException e) {
+            if (transaction != null) transaction.rollback();
+            log.error(e);
+        } finally {
+            session.close();
+        }
         return users;
     }
 
     public void updateUser(Users user) {
 
-    }
-
-    public void deleteUser(Users user) {
-        AbstractDao dao = new AbstractDao(Users.class);
-        dao.delete(user);
-    }
-
-    public int addUser(Users user) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction tx = null;
-        Integer userId = null;
+
+        Transaction transaction = null;
+
         try {
-            tx = session.beginTransaction();
-            userId = (Integer) session.save(user);
-            session.save(createUserRole(user));
-            tx.commit();
-            log.info("Added user: " + user + " with id of: " + userId);
+            transaction = session.beginTransaction();
+            session.saveOrUpdate(user);
+            transaction.commit();
+            log.info("User updated");
         } catch (HibernateException e) {
-            if (tx!=null) tx.rollback();
+            if (transaction != null) transaction.rollback();
             log.error(e);
         } finally {
             session.close();
         }
+    }
+
+    public void deleteUser(Users user) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+
+        Transaction transaction = null;
+
+        try {
+            transaction = session.beginTransaction();
+            session.delete(user);
+            transaction.commit();
+            log.info("user deleted");
+        } catch (HibernateException e) {
+            if (transaction != null) transaction.rollback();
+            log.error(e);
+        } finally {
+            session.close();
+        }
+
+    }
+
+    public int addUser(Users user) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+
+        Transaction transaction = null;
+        Integer userId = 0;
+
+        try {
+            transaction = session.beginTransaction();
+            userId = (Integer) session.save(user);
+            transaction.commit();
+            log.info("Added user: " + userId);
+
+        } catch (HibernateException e) {
+            if (transaction != null) transaction.rollback();
+            log.error(e);
+        } finally {
+            session.close();
+        }
+
         return userId;
     }
 

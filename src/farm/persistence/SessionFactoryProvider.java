@@ -7,7 +7,9 @@ import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 
 /**
- * Created by scheffs on 5/6/2016.
+ * This file provides a SessionFactory for use with DAOS using Hibernate
+ * @author naivischeffert
+ * @version 1.0 4/21/16.
  */
 public class SessionFactoryProvider {
 
