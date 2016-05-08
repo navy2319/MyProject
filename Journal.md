@@ -21,5 +21,10 @@
 | 3/22/16 | Worked on web design for my individual project, added a bootstrap template, worked on weather.java class for my teamProject | 5.0 | |
 | 3/31/16 | Worked on teamProject, added gson and jersey files and deploying application to openshift| 3.0 | |
 | 4/05/16 | Worked on adding images to my web application (individual project), changing some code to my bootstrap template | 3.5 | |
+| 4/19/16 | Worked on individual project, added some database | 2.0 | |
+| 4/21/16 | Added information to my Index page and about page | 2.5 | |
+| 5/06/16 | Worked on adding some servlets and DAO's to my individual project | 6.5 | |
+| 5/07/16 | Worked on individual project adding more test unit, servlets and classes | 5.0 | |
+
 
 
