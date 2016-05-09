@@ -8,60 +8,80 @@ import javax.persistence.*;
 public class Users {
 
     private int userId;
-    private String firstName;
-    private String lastName;
-    private String email;
+    private String userName;
+    private String userPassword;
 
+    /**
+     * Default constructor
+     */
     public Users() {
     }
 
-    public Users(int userId, String firstName, String lastName, String email) {
+    /**
+     * Constructor with more params
+     *
+     * @param userId userId
+     * @param userName userName
+     * @param userPassword userPassword
+     */
+    public Users(int userId, String userName, String userPassword) {
         this.userId = userId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
+        this.userName = userName;
+        this.userPassword = userPassword;
     }
 
+    /**
+     * Sets new username.
+     *
+     * @param userName New value of username.
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    /**
+     * Gets userId.
+     *
+     * @return Value of userId.
+     */
     public int getUserId() {
         return userId;
     }
 
+    /**
+     * Sets new userId.
+     *
+     * @param userId New value of userId.
+     */
     public void setUserId(int userId) {
         this.userId = userId;
     }
 
-    public String getFirstName() {
-        return firstName;
+    /**
+     * Gets username.
+     *
+     * @return Value of username.
+     */
+    public String getUserName() {
+        return userName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    /**
+     * Sets new password.
+     *
+     * @param userPassword New value of password.
+     */
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    @Override
-    public String toString() {
-        return "Users{" +
-                "id=" + userId +
-                ", First name='" + firstName + '\'' +
-                ", Last name='" + lastName + '\'' +
-                ", emailAddress='" + email + '\'' +
-                '}';
+    /**
+     * Gets password.
+     *
+     * @return Value of password.
+     */
+    public String getUserPassword() {
+        return userPassword;
     }
 }
 

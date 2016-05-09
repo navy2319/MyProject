@@ -1,9 +1,7 @@
 package farm.persistence;
 
 import farm.entities.Users;
-import org.apache.log4j.Logger;
 import org.junit.Test;
-import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -12,25 +10,54 @@ import static org.junit.Assert.*;
  */
 public class UserDaoTest {
 
-    private final Logger log = Logger.getLogger(this.getClass());
-
-    @Test
-    public void testGetAllUsers() {
-        UserDao test = new UserDao();
-        List<Users> users = test.getAllUsers();
-        assertTrue(users.size() > 0);
-    }
+    UserDao userDao = new UserDao();
 
     @Test
     public void testAddUser() {
-        UserDao test = new UserDao();
-        Users user = new Users();
-        user.setEmail("java@java.com");
-        user.setFirstName("Naivi");
-        user.setLastName("Scheffert");
-        int integer = test.addUser(user);
-        assertTrue(integer > 0);
-        test.deleteUser(user);
+
+        Users users = new Users();
+        users.setUserName("My Test");
+        users.setUserPassword("Test Password");
+
+        userDao.addUser(users);
+
+        Users selectedUser = userDao.getUserByUserName("My Test Person");
+
+        assertTrue(selectedUser.getUserName() == users.getUserName());
+        assertTrue(selectedUser.getUserPassword() == users.getUserPassword());
+
+        userDao.deleteUser(users);
+
+    }
+
+    @Test(expected = java.lang.IndexOutOfBoundsException.class)
+    public void testDeleteUser() {
+
+        Users users = new Users();
+        users.setUserName("test t");
+        users.setUserPassword("test tt");
+
+        userDao.addUser(users);
+        userDao.deleteUser(users);
+
+        Users user1 = userDao.getUserByUserName("test");
+
+    }
+
+    @Test
+    public void testGetUserByUsername() {
+        Users users = new Users();
+        users.setUserName("test");
+        users.setUserPassword("test");
+
+        userDao.addUser(users);
+
+        Users user1 = userDao.getUserByUserName("test");
+
+        assertTrue(user1.getUserName() == users.getUserName());
+
+        userDao.deleteUser(users);
+
     }
 }
 

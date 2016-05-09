@@ -68,6 +68,9 @@
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
+                <li>
+                    <a href="signup.jsp">Sign up</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
