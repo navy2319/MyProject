@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by Conno on 2/11/2016.
+ * Created by naivischeffert on 2/11/2016.
  */
 public class UserDaoTest {
 
