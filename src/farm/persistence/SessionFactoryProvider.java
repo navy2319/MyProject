@@ -1,5 +1,6 @@
 package farm.persistence;
 
+import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
@@ -14,9 +15,6 @@ public class SessionFactoryProvider {
 
     private static SessionFactory sessionFactory;
 
-    /**
-     * Use this method to create a session factory
-     */
     public static void createSessionFactory() {
         Configuration configuration = new Configuration();
         configuration.configure();
@@ -24,13 +22,7 @@ public class SessionFactoryProvider {
                 configuration.getProperties()). buildServiceRegistry();
         sessionFactory = configuration.buildSessionFactory(serviceRegistry);
     }
-    //check for this error 
 
-    /**
-     * Use this method to get a session factory
-     *
-     * @return the session factory
-     */
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             createSessionFactory();

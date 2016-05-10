@@ -9,8 +9,6 @@ import static org.junit.Assert.*;
  */
 public class UserDaoTest {
 
-
-
     @Test
     public void testAddUser() {
         UserDao userDao = new UserDao();
