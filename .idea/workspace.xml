@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/persistence/AbstractDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/farm/persistence/AbstractDao.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/persistence/SessionFactoryProvider.class" afterPath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/persistence/SessionFactoryProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/ShepsLittleAcres/UserDaoTest.class" afterPath="$PROJECT_DIR$/out/test/ShepsLittleAcres/UserDaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ShepsLittleAcres_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ShepsLittleAcres_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShepsLittleAcres.iml" afterPath="$PROJECT_DIR$/ShepsLittleAcres.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farm/persistence/SessionFactoryProvider.java" afterPath="$PROJECT_DIR$/src/farm/persistence/SessionFactoryProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserDaoTest.java" afterPath="$PROJECT_DIR$/tests/UserDaoTest.java" />
-    </list>
+    <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="" />
     <ignored path="ShepsLittleAcres.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1122,7 +1111,7 @@
       <workItem from="1458671275631" duration="37305000" />
       <workItem from="1462556977675" duration="44712000" />
       <workItem from="1462903889864" duration="234000" />
-      <workItem from="1462904264991" duration="321000" />
+      <workItem from="1462904264991" duration="634000" />
     </task>
     <servers />
   </component>
@@ -1159,7 +1148,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96815000" />
+    <option name="totallyTimeSpent" value="97128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

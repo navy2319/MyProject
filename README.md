@@ -36,7 +36,7 @@ Local events taking place in Clayton County.
 * Unit Testing 
 	* JUnit test to achieve 80% code coverage
 * Independent Research Topic
-	* TBD
+	* Bootstrap for web design.
 	
 ### Design
 
@@ -47,4 +47,4 @@ Local events taking place in Clayton County.
 ### [Project Plan] (ProjectPlan.md)
 
 ### [Development Journal] (Journal.md)
-
+* Having some problems / errors with deployment to openshift.
