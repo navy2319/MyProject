@@ -1,15 +1,11 @@
 package farm.persistence;
 
 import farm.entities.Users;
-import farm.entities.UserRoles;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
-import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by scheffs on 5/3/2016.
@@ -31,7 +27,7 @@ public class UserDao {
 
         try {
             tx = session.beginTransaction();
-            userId = (Integer) session.save("User", users);
+            userId = ((Integer) session.save(users)).intValue();
             tx.commit();
             log.info("Added User with id " + userId);
         } catch (HibernateException e) {
@@ -84,9 +80,9 @@ public class UserDao {
         try {
             tx = session.beginTransaction();
 
-            Query query = session.createQuery("from Users where userName = :searchTerm");
-            query.setParameter("searchTerm", userName);
-            users = (Users) query.list().get(0);
+            //Query query = session.createQuery("from Users");
+            //query.setParameter("searchTerm", userName);
+            //users = (Users) query.list().get(0);
 
 
         } catch (HibernateException e) {

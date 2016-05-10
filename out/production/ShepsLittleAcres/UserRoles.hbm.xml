@@ -7,7 +7,7 @@
         <meta attribute="class-description">
             This class contains the employee detail.
         </meta>
-        <id name="userName" type="String" column="user_name">
+        <id name="userName" type="string" column="user_name">
             <generator class="native"/>
         </id>
         <property name="roleName" column="role_name" type="string"/>

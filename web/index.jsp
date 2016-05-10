@@ -71,6 +71,9 @@
                 <li>
                     <a href="signup.jsp">Sign up</a>
                 </li>
+                <li>
+                    <a href="login.jsp">Login</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

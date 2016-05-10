@@ -20,7 +20,10 @@
             admin123
         </property>
         <mapping resource="Users.hbm.xml" />
-        <mapping class="farm.entities.Users" />
+        <!--<mapping class="farm.entities.Users" />-->
+        <mapping resource="UserRoles.hbm.xml" />
+        <mapping resource="Members.hbm.xml" />
+        <mapping resource="FarmEquip.hbm.xml" />
     </session-factory>
 
 </hibernate-configuration>

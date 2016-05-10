@@ -1,6 +1,5 @@
-package farm.persistence;
-
 import farm.entities.Users;
+import farm.persistence.UserDao;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -10,10 +9,11 @@ import static org.junit.Assert.*;
  */
 public class UserDaoTest {
 
-    UserDao userDao = new UserDao();
+
 
     @Test
     public void testAddUser() {
+        UserDao userDao = new UserDao();
 
         Users users = new Users();
         users.setUserName("My Test");
@@ -32,6 +32,7 @@ public class UserDaoTest {
 
     @Test(expected = java.lang.IndexOutOfBoundsException.class)
     public void testDeleteUser() {
+        UserDao userDao = new UserDao();
 
         Users users = new Users();
         users.setUserName("test t");
@@ -46,6 +47,8 @@ public class UserDaoTest {
 
     @Test
     public void testGetUserByUsername() {
+        UserDao userDao = new UserDao();
+
         Users users = new Users();
         users.setUserName("test");
         users.setUserPassword("test");

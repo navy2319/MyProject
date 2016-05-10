@@ -19,7 +19,7 @@ import farm.entities.Users;
 /**
  * Log in servlet.
  */
-@WebServlet(name = "LogIn", urlPatterns = { "/logIn" } )
+@WebServlet(name = "LogIn", urlPatterns = { "/login" } )
 public class LogIn extends HttpServlet {
 
     private final Logger log = Logger.getLogger(this.getClass());
@@ -28,10 +28,10 @@ public class LogIn extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //if user is already logged in, send to index, if user is not logged in, send to log in jsp.
         if (req.getUserPrincipal() != null) {
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/index" + ".jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
             dispatcher.forward(req, resp);
         } else {
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/signIn" + ".jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/login.jsp");
             dispatcher.forward(req, resp);
         }
     }

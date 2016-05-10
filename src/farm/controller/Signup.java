@@ -2,12 +2,10 @@ package farm.controller;
 
 import farm.entities.Users;
 import farm.entities.UserRoles;
-import org.hibernate.HibernateException;
 import farm.persistence.UserDao;
 import farm.persistence.UserRoleDao;
 
 import java.io.*;
-import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;

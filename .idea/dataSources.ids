@@ -70,23 +70,14 @@ role_name</columns>
         <data-type>int(11)</data-type>
       </column>
       <column id="22" parent="5" name="user_name">
-        <data-type>varchar(30)</data-type>
+        <data-type>varchar(25)</data-type>
       </column>
       <column id="23" parent="5" name="user_password">
-        <data-type>varchar(30)</data-type>
+        <data-type>varchar(25)</data-type>
       </column>
-      <index id="24" parent="5" name="users_user_id_uindex">
-        <columns>user_id</columns>
-        <desc-columns></desc-columns>
-        <unique>1</unique>
-      </index>
-      <key id="25" parent="5" name="PRIMARY">
+      <key id="24" parent="5" name="PRIMARY">
         <columns>user_id</columns>
         <primary>1</primary>
-      </key>
-      <key id="26" parent="5" name="users_user_id_uindex">
-        <columns>user_id</columns>
-        <underlying-index>users_user_id_uindex</underlying-index>
       </key>
     </database-model>
   </data-source>
