@@ -12,7 +12,7 @@ import org.apache.log4j.*;
 public class Database {
 
     // create an object of the class Database
-    private static Database instance = new Database();
+    private static final Database instance = new Database();
 
     private Connection connection;
 
@@ -44,11 +44,9 @@ public class Database {
         } catch (ClassNotFoundException e) {
             throw new Exception("Error: MySQL Driver not found");
         }
-        //TODO: update with your database connection info
-        String url = "jdbc:mysql://localhost:3306/farm";
+        String url = "jdbc:mysql://localhost:3306/sheps_db";
 
-        //TODO: update with your database connection info
-        connection = DriverManager.getConnection(url, "admin", "admin");
+        connection = DriverManager.getConnection(url, "admi123", "admin");
     }
 
     public void disconnect() {

@@ -36,6 +36,8 @@ public class Signup extends HttpServlet {
 
         String userName = request.getParameter("userName");
         String userPassword = request.getParameter("userPassword");
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
 
         if (userDao.getUserByUserName(userName) != null) {
 
@@ -53,6 +55,8 @@ public class Signup extends HttpServlet {
 
         users.setUserName(userName);
         users.setUserPassword(userPassword);
+        users.setFirstName(firstName);
+        users.setLastName(lastName);
 
         UserRoles userRoles = new UserRoles();
 

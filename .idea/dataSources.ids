@@ -6,7 +6,7 @@
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
-    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="sheps_db"/>
       <table id="2" parent="1" name="members"/>
       <table id="3" parent="1" name="farm_equipment"/>
@@ -75,7 +75,13 @@ role_name</columns>
       <column id="23" parent="5" name="user_password">
         <data-type>varchar(25)</data-type>
       </column>
-      <key id="24" parent="5" name="PRIMARY">
+      <column id="24" parent="5" name="first_name">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="25" parent="5" name="last_name">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <key id="26" parent="5" name="PRIMARY">
         <columns>user_id</columns>
         <primary>1</primary>
       </key>

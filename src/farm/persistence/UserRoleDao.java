@@ -6,9 +6,6 @@ import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.apache.log4j.Logger;
-import farm.entities.Users;
-import farm.persistence.UserDao;
 
 import java.util.ArrayList;
 

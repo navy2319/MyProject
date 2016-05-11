@@ -3,15 +3,14 @@ package farm.persistence;
 import farm.entities.Users;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-
 /**
- * Created by scheffs on 5/3/2016.
+ * Created by scheffs on 5/10/2016.
  */
 public class UserDao {
-
     private final Logger log = Logger.getLogger(this.getClass());
 
     /**
@@ -69,7 +68,7 @@ public class UserDao {
      * This method gets a user
      *
      * @param userName the username of the user you are trying to get
-     * @return the user with the username
+     * @return the user with the userName
      */
     public Users getUserByUserName(String userName) {
 
@@ -80,9 +79,9 @@ public class UserDao {
         try {
             tx = session.beginTransaction();
 
-            //Query query = session.createQuery("from Users");
-            //query.setParameter("searchTerm", userName);
-            //users = (Users) query.list().get(0);
+            Query query = session.createQuery("from Users");
+            query.setParameter("searchTerm", userName);
+            users = (Users) query.list().get(0);
 
 
         } catch (HibernateException e) {
@@ -99,4 +98,5 @@ public class UserDao {
 
         return users;
     }
+
 }

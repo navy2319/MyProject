@@ -16,19 +16,22 @@ public class UserDaoTest {
         Users users = new Users();
         users.setUserName("My Test");
         users.setUserPassword("Test Password");
+        users.setFirstName("me");
+        users.setLastName("meeeee");
 
         userDao.addUser(users);
 
-        Users selectedUser = userDao.getUserByUserName("My Test Person");
+        Users selectedUser = userDao.getUserByUserName("My Test");
 
         assertTrue(selectedUser.getUserName() == users.getUserName());
         assertTrue(selectedUser.getUserPassword() == users.getUserPassword());
-
+        assertTrue(selectedUser.getFirstName() == users.getFirstName());
+        assertTrue(selectedUser.getLastName() == users.getLastName());
         userDao.deleteUser(users);
 
     }
 
-    @Test(expected = java.lang.IndexOutOfBoundsException.class)
+    /*@Test(expected = java.lang.IndexOutOfBoundsException.class)
     public void testDeleteUser() {
         UserDao userDao = new UserDao();
 
@@ -59,6 +62,6 @@ public class UserDaoTest {
 
         userDao.deleteUser(users);
 
-    }
+    }*/
 }
 

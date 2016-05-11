@@ -7,10 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
-import farm.persistence.UserDao;
-import farm.entities.Users;
 
 /**
  * Created by scheffs on 5/7/2016.
@@ -28,10 +26,10 @@ public class LogIn extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //if user is already logged in, send to index, if user is not logged in, send to log in jsp.
         if (req.getUserPrincipal() != null) {
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
             dispatcher.forward(req, resp);
         } else {
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/login.jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("login.jsp");
             dispatcher.forward(req, resp);
         }
     }
