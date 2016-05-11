@@ -19,34 +19,29 @@ public class UserDaoTest {
         users.setFirstName("me");
         users.setLastName("meeeee");
 
-        userDao.addUser(users);
-
-        Users selectedUser = userDao.getUserByUserName("My Test");
-
-        assertTrue(selectedUser.getUserName() == users.getUserName());
-        assertTrue(selectedUser.getUserPassword() == users.getUserPassword());
-        assertTrue(selectedUser.getFirstName() == users.getFirstName());
-        assertTrue(selectedUser.getLastName() == users.getLastName());
-        userDao.deleteUser(users);
-
-    }
-
-    /*@Test(expected = java.lang.IndexOutOfBoundsException.class)
-    public void testDeleteUser() {
-        UserDao userDao = new UserDao();
-
-        Users users = new Users();
-        users.setUserName("test t");
-        users.setUserPassword("test tt");
-
-        userDao.addUser(users);
-        userDao.deleteUser(users);
-
-        Users user1 = userDao.getUserByUserName("test");
+        int userId = userDao.addUser(users);
+        //Need to check for the next user in the table and change the number before running the test
+        assertTrue(userId == 42);
 
     }
 
     @Test
+    public void testDeleteUser() {
+        UserDao userDao = new UserDao();
+
+        Users users = new Users();
+        users.setUserName("My Test");
+        users.setUserPassword("Test Password");
+
+        assertTrue(userDao.getUserByUserName("My Test") == null);
+        //userDao.addUser(users);
+        userDao.deleteUser(users);
+
+        //Users user1 = userDao.getUserByUserName("test");
+
+    }
+
+    /*@Test
     public void testGetUserByUsername() {
         UserDao userDao = new UserDao();
 
@@ -56,11 +51,12 @@ public class UserDaoTest {
 
         userDao.addUser(users);
 
-        Users user1 = userDao.getUserByUserName("test");
+        //Users user1 = userDao.getUserByUserName("test");
+        String userName = userDao.getUserByUserName(userName);
+        assertTrue(userName == "test");
+        //assertTrue(userDao.getUserByUserName("test") == null);
 
-        assertTrue(user1.getUserName() == users.getUserName());
-
-        userDao.deleteUser(users);
+        //userDao.deleteUser(users);
 
     }*/
 }

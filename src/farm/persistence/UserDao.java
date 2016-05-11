@@ -2,10 +2,8 @@ package farm.persistence;
 
 import farm.entities.Users;
 import org.apache.log4j.Logger;
-import org.hibernate.HibernateException;
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import org.hibernate.*;
+import org.hibernate.criterion.Restrictions;
 
 /**
  * Created by scheffs on 5/10/2016.
@@ -79,10 +77,11 @@ public class UserDao {
         try {
             tx = session.beginTransaction();
 
-            Query query = session.createQuery("from Users");
-            query.setParameter("searchTerm", userName);
-            users = (Users) query.list().get(0);
-
+            Criteria criteria = session.createCriteria(Users.class);
+            criteria.add(Restrictions.eq("userName", userName));
+            Users user = (Users) criteria.uniqueResult();
+            session.close();
+            return user;
 
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
