@@ -1,0 +1,47 @@
+form {
+    border: .3em ridge #181818;
+    background-color: #C0C0C0;
+    padding: 1.5em;
+    box-shadow: #505050 3px 4px 5px;
+    width: 30em;
+    display: inline-block;
+    margin-left: 35em;
+    margin-top: 10em;
+}
+
+table {
+    color: #000000;
+    margin-left:28em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.setWidth {
+    width: 8em;
+    display: inline-block;
+}
+
+
+.error {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.login {
+    font-style: italic;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    color:#fff;
+}
+
+td.label {
+    font-weight: bold;
+}
+
+img.profile {
+    vertical-align: top;
+}
