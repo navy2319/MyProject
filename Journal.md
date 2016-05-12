@@ -20,11 +20,16 @@
 | 3/15/16 | Worked on deploy application to openshift, added hibernate xml files, added some bootstrap code, added two more tables to my database | 7.5 | |
 | 3/22/16 | Worked on web design for my individual project, added a bootstrap template, worked on weather.java class for my teamProject | 5.0 | |
 | 3/31/16 | Worked on teamProject, added gson and jersey files and deploying application to openshift| 3.0 | |
-| 4/05/16 | Worked on adding images to my web application (individual project), changing some code to my bootstrap template | 3.5 | |
-| 4/19/16 | Worked on individual project, added some database | 2.0 | |
-| 4/21/16 | Added information to my Index page and about page | 2.5 | |
+| 4/05/16 | Worked on adding images to my web application (individual project), changing some code to my bootstrap template | 6.5 | |
+| 4/19/16 | Worked on individual project, added some database | 4.0 | |
+| 4/21/16 | Added information to my Index page and about page | 5.5 | |
 | 5/06/16 | Worked on adding some servlets and DAO's to my individual project | 6.5 | |
 | 5/07/16 | Worked on individual project adding more test unit, servlets and classes | 5.0 | |
+| 5/08/16 | Worked on individual project adding more classes and troubleshooting for jar files errors| 4.5 | |
+| 5/09/16 | Worked on individual project trying to get tests to pass and fixing errors with database, meeting with tutor| 10.0 | |
+| 5/10/16 | Worked on unit test and servlets | 9.0 | |
+| 5/11/16 | Worked on fixing unit test, servlets to connect to the right table in my database, added another class, dao, servlet, hbm.xml to my project | 9.0 | |
+
 
 
 
