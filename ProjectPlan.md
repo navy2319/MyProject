@@ -91,7 +91,7 @@
 
 ### Week 16
 - [X] Weekly journal entry
-Summer goals
+- [ ] Summer goals
 - [ ] Continuing on the search of a nice web services for displaying the local weather
 - [ ] Continuing with the search of how to implement a blog with java or web services
 - [ ] troubleshoot openshift 
