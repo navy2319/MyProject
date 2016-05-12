@@ -21,20 +21,23 @@ public class UserRoleDao {
      *
      * @param userRoles the user-role to be added
      */
-    public void addUserRole(UserRoles userRoles) {
+    public String addUserRole(UserRoles userRoles) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
+        String roleName = null;
 
         try {
             tx = session.beginTransaction();
-            session.save("UserRole", userRoles);
+            roleName = ((String) session.save(userRoles));
             tx.commit();
+            log.info("Added User with role name " + roleName);
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             log.error(e);
         } finally {
             session.close();
         }
+        return roleName;
     }
 
     /**

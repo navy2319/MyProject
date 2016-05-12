@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c7298af-fb16-437f-bb3f-e552a873f483" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/persistence/UserDao.class" afterPath="$PROJECT_DIR$/out/production/ShepsLittleAcres/farm/persistence/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farm/controller/LogIn.java" afterPath="$PROJECT_DIR$/src/farm/controller/LogIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farm/controller/Signup.java" afterPath="$PROJECT_DIR$/src/farm/controller/Signup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farm/persistence/UserDao.java" afterPath="$PROJECT_DIR$/src/farm/persistence/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farm/persistence/UserRoleDao.java" afterPath="$PROJECT_DIR$/src/farm/persistence/UserRoleDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserDaoTest.java" afterPath="$PROJECT_DIR$/tests/UserDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signup.jsp" afterPath="$PROJECT_DIR$/web/signup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/UserRoleDaoTest.java" afterPath="$PROJECT_DIR$/tests/UserRoleDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/about.jsp" afterPath="$PROJECT_DIR$/web/about.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
     </list>
     <ignored path="ShepsLittleAcres.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,6 +66,20 @@
         <option name="myItemId" value="MySQL - sheps_db@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="members" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - sheps_db@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -77,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDaoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/UserDaoTest.java">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/farm/persistence/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8515284">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,20 +100,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/farm/persistence/UserDao.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state vertical-scroll-proportion="-74.53846">
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/about.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-41.846153">
+              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9666667">
+            <state vertical-scroll-proportion="0.27803737">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
@@ -139,7 +160,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/business-casual.css" />
         <option value="$PROJECT_DIR$/web/business-casual.css" />
         <option value="$PROJECT_DIR$/web/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/web/about.jsp" />
         <option value="dbtable:/233d4c11/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/sheps_db.user" />
         <option value="$PROJECT_DIR$/resources/Members.hbm.xml" />
         <option value="$PROJECT_DIR$/resources/FarmEquip.hbm.xml" />
@@ -149,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/farm/persistence/UserDaoTest.groovy" />
         <option value="$PROJECT_DIR$/src/farm/controller/LogOut.java" />
         <option value="$PROJECT_DIR$/src/farm/controller/SignUp.java" />
-        <option value="$PROJECT_DIR$/src/farm/persistence/UserRoleDao.java" />
         <option value="$PROJECT_DIR$/src/farm/entities/UserRoles.java" />
         <option value="$PROJECT_DIR$/src/farm/persistence/UserRoleDaoTest.java" />
         <option value="$PROJECT_DIR$/src/farm/persistence/UserDaoTest.java" />
@@ -157,14 +176,12 @@
         <option value="dbtable:/233d4c11/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/sheps_db.users" />
         <option value="dbtable:/233d4c11/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/sheps_db.user_roles" />
         <option value="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
-        <option value="$PROJECT_DIR$/tests/UserRoleDaoTest.java" />
         <option value="$USER_HOME$/Downloads/apache-tomee-1.7.3-plus/tomee/conf/server.xml" />
         <option value="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/resources/UserRoles.hbm.xml" />
         <option value="$PROJECT_DIR$/src/farm/persistence/SessionFactoryProvider.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/Users.hbm.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/console.sql" />
         <option value="$PROJECT_DIR$/src/farm/entities/Users.java" />
         <option value="$PROJECT_DIR$/src/farm/persistence/UserDaoWithHibernate.java" />
         <option value="$PROJECT_DIR$/src/farm/persistence/UserDaoWithSql.java" />
@@ -173,14 +190,18 @@
         <option value="$PROJECT_DIR$/web/form_style.css" />
         <option value="$PROJECT_DIR$/web/memberBlog..jsp" />
         <option value="$PROJECT_DIR$/web/contact.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/memberBlog.jsp" />
         <option value="$PROJECT_DIR$/src/farm/controller/Signup.java" />
         <option value="$PROJECT_DIR$/web/signup.jsp" />
         <option value="$PROJECT_DIR$/src/farm/persistence/UserDao.java" />
         <option value="$PROJECT_DIR$/src/farm/controller/LogIn.java" />
-        <option value="$PROJECT_DIR$/tests/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/farm/persistence/UserRoleDao.java" />
+        <option value="$PROJECT_DIR$/tests/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/tests/UserRoleDaoTest.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/about.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/console.sql" />
       </list>
     </option>
   </component>
@@ -401,74 +422,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TomEE Server.TomEE 7.0.63">
-    <configuration default="false" name="UserDaoTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ShepsLittleAcres" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserDaoTest" />
-      <option name="METHOD_NAME" value="testAddUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserDaoWithHibernateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ShepsLittleAcres" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserDaoWithHibernateTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserDaoTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ShepsLittleAcres" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserDaoTest" />
-      <option name="METHOD_NAME" value="testDeleteUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="UserDaoTest.testGetUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ShepsLittleAcres" />
@@ -499,6 +452,69 @@
       <option name="MAIN_CLASS_NAME" value="UserDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserRoleDaoTest.testAddUserRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ShepsLittleAcres" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserRoleDaoTest" />
+      <option name="METHOD_NAME" value="testAddUserRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserRoleDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ShepsLittleAcres" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserRoleDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserRoleDaoTest.testDeleteUserRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ShepsLittleAcres" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserRoleDaoTest" />
+      <option name="METHOD_NAME" value="testDeleteUserRole" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1018,19 +1034,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.TomEE 7.0.63" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testAddUser" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoWithHibernateTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testDeleteUser" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testGetUserByUsername" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testGetUserByUsername" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserRoleDaoTest.testAddUserRole" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserRoleDaoTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserRoleDaoTest.testDeleteUserRole" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testGetUserByUsername" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testAddUser" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testDeleteUser" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoWithHibernateTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserRoleDaoTest.testAddUserRole" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserRoleDaoTest.testDeleteUserRole" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserRoleDaoTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testGetUserByUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -1048,44 +1064,44 @@
       <workItem from="1458671275631" duration="37305000" />
       <workItem from="1462556977675" duration="44712000" />
       <workItem from="1462903889864" duration="234000" />
-      <workItem from="1462904264991" duration="22888000" />
+      <workItem from="1462904264991" duration="26320000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest - 2016.05.11 at 18h 02m 17s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2016.05.11 at 18h 07m 23s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2016.05.11 at 18h 07m 43s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2016.05.11 at 18h 07m 48s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDaoTest - 2016.05.11 at 18h 08m 00s.xml">
       <configuration name="UserDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_testAddUser - 2016.05.11 at 14h 41m 17s.xml">
-      <configuration name="UserDaoTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="UserRoleDaoTest - 2016.05.11 at 18h 42m 04s.xml">
+      <configuration name="UserRoleDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_testAddUser - 2016.05.11 at 17h 37m 44s.xml">
-      <configuration name="UserDaoTest.testAddUser" configurationId="JUnit" />
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 18h 40m 41s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_testDeleteUser - 2016.05.11 at 17h 36m 27s.xml">
-      <configuration name="UserDaoTest.testDeleteUser" configurationId="JUnit" />
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 18h 42m 13s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_testGetUserByUsername - 2016.05.11 at 17h 41m 43s.xml">
-      <configuration name="UserDaoTest.testGetUserByUsername" configurationId="JUnit" />
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 18h 47m 33s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_testGetUserByUsername - 2016.05.11 at 17h 44m 58s.xml">
-      <configuration name="UserDaoTest.testGetUserByUsername" configurationId="JUnit" />
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 18h 49m 50s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 19h 04m 56s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 19h 06m 34s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRoleDaoTest_testAddUserRole - 2016.05.11 at 19h 08m 37s.xml">
+      <configuration name="UserRoleDaoTest.testAddUserRole" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRoleDaoTest_testDeleteUserRole - 2016.05.11 at 19h 03m 40s.xml">
+      <configuration name="UserRoleDaoTest.testDeleteUserRole" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119382000" />
+    <option name="totallyTimeSpent" value="122814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1146,7 +1162,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1299,14 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.653846">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/farm/controller/LogOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1355,16 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/farm/persistence/UserRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="e#1865#1876#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/Members.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
@@ -1400,14 +1398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/farm/entities/UserRoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1437,16 +1427,6 @@
         <state vertical-scroll-proportion="0.44646466">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/UserRoleDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1545,34 +1525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.153846">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/memberBlog.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68869936">
           <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/farm/persistence/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9666667">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1609,13 +1565,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/farm/entities/UserRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8515284">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/UserRoleDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/farm/persistence/UserRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59825325">
+          <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/farm/persistence/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-74.53846">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-41.846153">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9cf87d62-0287-4bb5-9c90-3b53ee0a4bd5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27803737">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

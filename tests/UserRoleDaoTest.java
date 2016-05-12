@@ -9,32 +9,28 @@ import static org.junit.Assert.*;
  */
 public class UserRoleDaoTest {
 
-    UserRoleDao dao = new UserRoleDao();
-
     @Test
-    public void testAddUserRoleAndSelectUserRole() {
-        UserRoles userRoles = new UserRoles("test", "tester");
+    public void testAddUserRole() {
+        UserRoleDao userRoleDao = new UserRoleDao();
 
-        dao.addUserRole(userRoles);
+        UserRoles userRoles = new UserRoles();
+        userRoles.setUserName("My name");
+        userRoles.setRoleName("admin");
 
-        UserRoles userRole1 = dao.getUserRolesFor("test").get(0);
-
-        assertTrue(userRoles.getUserName().equals(userRole1.getUserName()));
-
-        dao.deleteUserRole(userRoles);
+        String roleName = userRoleDao.addUserRole(userRoles);
+        assertTrue(roleName == "Test Password");
     }
 
     @Test
     public void testDeleteUserRole() {
-        UserRoles userRole = new UserRoles("test", "tester");
+        UserRoleDao userRoleDao = new UserRoleDao();
 
-        dao.addUserRole(userRole);
+        UserRoles userRoles = new UserRoles();
+        userRoles.setUserName("My name");
+        userRoles.setRoleName("admin");
 
-        dao.deleteUserRole(userRole);
-
-        ArrayList<UserRoles> userRoles = dao.getUserRolesFor("test");
-
-        assertTrue(userRoles.size() == 0);
+        assertTrue(userRoleDao.getUserRolesFor("admin") == null);
+        userRoleDao.deleteUserRole(userRoles);
 
     }
 }

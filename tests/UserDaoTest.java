@@ -37,8 +37,6 @@ public class UserDaoTest {
         //userDao.addUser(users);
         userDao.deleteUser(users);
 
-        //Users user1 = userDao.getUserByUserName("test");
-
     }
 
     /*@Test

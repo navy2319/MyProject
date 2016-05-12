@@ -45,19 +45,19 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> //
-                <span class="icon-bar"></span> //
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="index.jsp">Business Casual</a> //index.html?
+            <a class="navbar-brand" href="index.jsp">Business Casual</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="index.jsp">Home</a> //index.html?
+                    <a href="index.jsp">Home</a>
                 </li>
                 <li>
                     <a href="about.jsp">About</a>
@@ -97,13 +97,13 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive img-full" src="images/farmSlide2.jpg" alt=""> //CoffeCup
+                            <img class="img-responsive img-full" src="images/farmSlide2.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="images/slide-2.jpg" alt=""> //Jars
+                            <img class="img-responsive img-full" src="images/slide-2.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="img-responsive img-full" src="images/slide-3.jpg" alt=""> //WhiteTablet
+                            <img class="img-responsive img-full" src="images/slide-3.jpg" alt="">
                         </div>
                     </div>
 
@@ -120,11 +120,6 @@
                 </h2>
                 <h1 class="brand-name">Shep's Little Acres</h1>
                 <hr class="tagline-divider">
-                <h2>
-                    <small>By
-                        <strong>Naivi Scheffert</strong>
-                    </small>
-                </h2>
             </div>
         </div>
     </div>
@@ -136,7 +131,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <p>Copyright &copy; Your Website 2014</p>
+                <p>Copyright &copy; Naivi Scheffert 2016</p>
             </div>
         </div>
     </div>
