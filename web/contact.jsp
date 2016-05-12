@@ -119,16 +119,36 @@
                 </h2>
                 <hr>
                 <p>Submit your information:</p>
-                <form method="post" action="contactReport.jsp">
-                    <label for="firstname">First name:</label>
-                    <input type="text" id="firstname" name="firstname" /><br />
-                    <label for="lastname">Last name:</label>
-                    <input type="text" id="lastname" name="lastname" /><br />
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" /><br />
-                    <label for="other">Message:</label>
-                    <textarea id="other" name="other"></textarea><br />
-                    <input type="submit" value="Submit" name="submit" />
+                <form class="form-horizontal" method="post" action="contact">
+                    <div class="form-group">
+                        <label for="firstname" class="col-sm-2 control-label">First name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="firstname" placeholder="Username" name="firstName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname" class="col-sm-2 control-label">Last name</label>
+                        <div class="col-sm-10">
+                            <input type="lastname" class="form-control" id="lastname" placeholder="lastname" name="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="email" placeholder="email" name="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-sm-2 control-label">Message</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="message" placeholder="message" name="message">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

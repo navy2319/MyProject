@@ -9,7 +9,7 @@ public class Members {
     private String firstName;
     private String lastName;
     private String email;
-    private int phone;
+    private String message;
 
     public int getMemberId() {
         return memberId;
@@ -43,11 +43,11 @@ public class Members {
         this.email = email;
     }
 
-    public int getPhone() {
-        return phone;
+    public String getMessage() {
+        return message;
     }
 
-    public void setPhone(int phone) {
-        this.phone = phone;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

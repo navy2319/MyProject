@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About - Business Casual - Start Bootstrap Theme</title>
+    <title>About - Shep's Little Acres</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
 <body>
 
 <div class="brand">Shep's Little Acres</div>
-<div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+<div class="address-bar">Garber Iowa.</div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">

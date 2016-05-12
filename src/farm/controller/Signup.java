@@ -31,8 +31,6 @@ public class Signup extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        //UserRoleDao userRoleDao = new UserRoleDao();
-
         String userName = request.getParameter("userName");
         String userPassword = request.getParameter("userPassword");
         String firstName = request.getParameter("firstName");
@@ -41,7 +39,6 @@ public class Signup extends HttpServlet {
         /*if (userDao.getUserByUserName(userName) != null) {
 
             request.setAttribute("errorMessage", "You must have a unique username!");
-
 
             String url = "/signup.jsp";
 
@@ -57,14 +54,8 @@ public class Signup extends HttpServlet {
         users.setFirstName(firstName);
         users.setLastName(lastName);
 
-        //UserRoles userRoles = new UserRoles();
-
-        //userRoles.setUserName(userName);
-        //userRoles.setRoleName("registered-user");
         UserDao userDao = new UserDao();
         int userId = userDao.addUser(users);
-
-        //userRoleDao.addUserRole(userRoles);
 
         String url = "index.jsp";
         response.sendRedirect(url);

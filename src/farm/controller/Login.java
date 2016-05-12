@@ -17,8 +17,11 @@ import org.apache.log4j.Logger;
 /**
  * Log in servlet.
  */
-@WebServlet(name = "login", urlPatterns = { "/login" } )
-public class LogIn extends HttpServlet {
+@WebServlet(
+        name = "login",
+        urlPatterns = { "/login" } )
+
+public class Login extends HttpServlet {
 
     private final Logger log = Logger.getLogger(this.getClass());
 

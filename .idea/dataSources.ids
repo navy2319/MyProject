@@ -25,8 +25,8 @@
       <column id="9" parent="2" name="email">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="10" parent="2" name="phone">
-        <data-type>varchar(10)</data-type>
+      <column id="10" parent="2" name="message">
+        <data-type>text</data-type>
       </column>
       <key id="11" parent="2" name="PRIMARY">
         <columns>member_id</columns>
