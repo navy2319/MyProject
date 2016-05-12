@@ -21,7 +21,7 @@ public class UserDaoTest {
 
         int userId = userDao.addUser(users);
         //Need to check for the next user in the table and change the number before running the test
-        assertTrue(userId == 42);
+        assertTrue(userId == 59);
 
     }
 

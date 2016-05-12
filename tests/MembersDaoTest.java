@@ -1,7 +1,6 @@
 import farm.entities.Members;
 import farm.persistence.MembersDao;
 import org.junit.Test;
-
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -19,24 +18,22 @@ public class MembersDaoTest {
         members.setMessage("meeeee allf  afjehguhg fji oefu hfh.");
 
 
-        //int memberId = MembersDao.addMembers(members);
+        int memberId = membersDao.addMembers(members);
         //Need to check for the next user in the table and change the number before running the test
-        //assertTrue(memberId == 42);
-
+        assertTrue(memberId == 9);
     }
 
     @Test
-    public void testDeleteUser() {
+    public void testDeleteMember() {
         MembersDao membersDao = new MembersDao();
 
         Members members = new Members();
         members.setFirstName("Test");
         members.setLastName("meeeee");
 
-        assertTrue(membersDao.getUserByFirstName("Test") == null);
-        //userDao.addUser(users);
-        membersDao.deleteMember(members);
+        assertTrue(membersDao.getMemberByFirstName("Test") == null);
 
+        membersDao.deleteMember(members);
     }
 
     /*@Test

@@ -71,7 +71,7 @@ public class MembersDao {
      * @param firstName the username of the user you are trying to get
      * @return the user with the userName
      */
-    public Members getUserByFirstName(String firstName) {
+    public Members getMemberByFirstName(String firstName) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -82,9 +82,9 @@ public class MembersDao {
 
             Criteria criteria = session.createCriteria(Members.class);
             criteria.add(Restrictions.eq("firstName", firstName));
-            //Members members = (Members) criteria.uniqueResult();
+            Members member = (Members) criteria.uniqueResult();
             session.close();
-            return members;
+            return member;
 
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
@@ -96,8 +96,6 @@ public class MembersDao {
         }finally {
             session.close();
         }
-
-
         return members;
     }
 }
