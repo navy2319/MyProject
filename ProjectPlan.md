@@ -17,7 +17,7 @@
 ### Week 3
 - [X] Weekly journal entry
 - [X] Determine independent research topic
-- [ ] Create class diagram
+- [X] Create class diagram
 - [X] Set up logging
 - [X] Set up unit testing
 
@@ -78,11 +78,20 @@
 
 ### Week 14
 - [X] Weekly journal entry
-- [ ] Create final presentation
+- [X] Continuing creating jsp's, servlets and Dao's
+- [X] Add more testing
+
 
 ### Week 15
-- [ ] Final Presentation
-- [ ] Weekly journal entry
+- [X] Continuing fixing problems with database and servlets 
+- [X] Fix any other errors for test unit
+- [X] Create final presentation
+- [X] Final Presentation for Shep's Little Acres
+- [X] Weekly journal entry
 
 ### Week 16
-- [ ] Weekly journal entry
+- [X] Weekly journal entry
+Summer goals
+- [ ] Continuing on the search of a nice web services for displaying the local weather
+- [ ] Continuing with the search of how to implement a blog with java or web services
+- [ ] troubleshoot openshift 
