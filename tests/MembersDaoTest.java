@@ -20,7 +20,7 @@ public class MembersDaoTest {
 
         int memberId = membersDao.addMembers(members);
         //Need to check for the next user in the table and change the number before running the test
-        assertTrue(memberId == 9);
+        assertTrue(memberId == 11);
     }
 
     @Test

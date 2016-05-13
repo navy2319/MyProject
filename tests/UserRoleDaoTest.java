@@ -17,8 +17,9 @@ public class UserRoleDaoTest {
         userRoles.setUserName("My name");
         userRoles.setRoleName("admin");
 
+
         String roleName = userRoleDao.addUserRole(userRoles);
-        assertTrue(roleName == "Test Password");
+        assertTrue(roleName == "admin");
     }
 
     @Test
